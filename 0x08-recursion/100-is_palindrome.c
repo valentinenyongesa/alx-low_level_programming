@@ -7,7 +7,6 @@ int check_palindrome(char *s, int r);
 /**
  * is_palindrome - returns 1 if a string is a palindrome and 0 if not
  * @s: string to check whether palindrome
- * @r: input string
  * Return: 1 if palindrome and 0 if not
  */
 
