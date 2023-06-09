@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-int string_length(char *s);
 /**
  * _strlen_recursion - returns length of a string
  * @s: string to be checked
@@ -10,22 +9,12 @@ int string_length(char *s);
  */
 int _strlen_recursion(char *s)
 {
-	return (string_length(char *s));
-}
-
-/**
- * string_length - check length of a string
- * @s: string to be checked
- * Return: length of string
- */
-int string_length(char *s)
-{
 	int length = 0;
 
 	if (*s)
 	{
 		length++;
-		length += string_length(s + 1);
+		length += _strlen_recursion(s + 1);
 	}
 
 	return (length);
