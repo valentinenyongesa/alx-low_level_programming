@@ -4,10 +4,10 @@
 
 /**
  * print_numbers - function that prints numbers followed
- * @separator - string to be printed between numbers
+ * @separator: string to be printed between numbers
  * @n: number of integers passed to the function
  * Return: 0
- */ 
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numbers;
