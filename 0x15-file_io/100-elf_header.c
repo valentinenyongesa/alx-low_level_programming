@@ -153,7 +153,8 @@ void print_osabi(unsigned char *e_indent)
  */
 void print_abi(unsigned char *e_indent)
 {
-	printf("ABI Version: %d\n", e_indent[EI_ABIVERSION]);
+	printf("  ABI Version:                       %d\n",
+			e_indent[EI_ABIVERSION]);
 }
 /**
  * print_type - Prints the type of an ELF header.
