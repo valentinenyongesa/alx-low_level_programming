@@ -5,6 +5,7 @@
  * @h: pointer to pointer to head node
  * @idx: position to insert new node
  * @n: new node
+ * Return: 0
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
